@@ -11,7 +11,10 @@ This application was compiled for LibC 2.35. To find out which version is instal
 This application was compiled without Pango package, so it uses only Cairo to apply font full hinting without anti-aliasing. This can not be changed by desktopp settings. 
 
 Application looks like this:
-<img width="939" height="662" alt="Screenshot_2026-07-13_12-17-36" src="https://github.com/user-attachments/assets/2a232e07-099b-449b-b998-2ab9426d5854" />
+
+<img width="700" height="494" alt="Screenshot_2026-07-13_12-17-36" src="https://github.com/user-attachments/assets/4ec08503-7451-4dac-9985-846422f91e0a" />
+
+
 
 Archive needs to be drag-and-dropped into baige area. Application doesn't have a field for an archive path to type into.
 Green rectangles "7z, Rar, Zip" indicates that those formats are supported. 
