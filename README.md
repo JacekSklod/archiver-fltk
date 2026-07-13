@@ -17,4 +17,10 @@ Application looks like this:
 
 
 Archive needs to be drag-and-dropped into baige area. Application doesn't have a field for an archive path to type into.
-Green rectangles "7z, Rar, Zip" indicates that those formats are supported. 
+Green rectangles "7z, Rar, Zip" indicates that those formats are supported.
+
+So idea is very simple, drag archive into baige area. As soon as one release mouse button application will try to show an archive files list without a password. If this succeed files list will be provided, if not, application will put message to the low output area with error, which most likely "password is needed". So type or paste password into password input and press "list" button. One should see files list. Then it is possible to extract all by clicking axtract or select some files just click on them. Application calculates extracted files size for all files or for selected.
+
+This application always extract intu default folder called "Extraction-tamestamp". Is was designed to make sure that extracted file won't go into source location. If extraction failed folder will be empty.
+
+
