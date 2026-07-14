@@ -19,10 +19,10 @@ Application looks like this:
 Archive needs to be drag-and-dropped into beige area. Application doesn't have a field for an archive path to type into.
 Green rectangles "7z, Rar, Zip" indicates that those formats are supported.
 
-So idea is very simple, drag archive into beige area. As soon as one release mouse button, application will try to show an archive files list without a password. If this succeed files list will be provided, if not, application will put message to the low output area with error, which most likely "password is needed". So type or paste password into password input and press "list" button. One should see files list. Then it is possible to extract all by clicking axtract or select some files just click on them. Application calculates extracted files size for all files or for selected.
+So idea is very simple, drag archive into beige area. As soon as one releases mouse button, application will try to show an archive files list without a password. If this succeed files list will be provided, if not, application will put message to the low output area with error, which most likely "password is needed". So type or paste password into password input and press "list" button. Application should create archive files list. Then it is possible to extract all files by clicking axtract or select some files just clicking on them. Application calculates extracted files size for all files or for selected.
 
-This application always extract intu default folder called "Extraction-tamestamp". Is was designed to make sure that extracted file won't go into source location as a pile of files. If extraction failed folder will be empty.
+This application always extract into new folder called "Extract_date_time". It was designed to make sure that extracted file won't go into source location as a pile of files. If extraction failed folder will be empty.
 
-After successful extraction files list will be cleaned, but not the password, I done it so if password is the same for few archives no need to enter it again and again.
+After successful extraction files list will be cleaned, but not the password, so if password is the same for a few archives no need to enter it again and again.
 
-When application starts, it create config file in user home `/.config` directory. File name is `fltk-archiver.conf`. It has explanation inside.
+When application starts, it creates config file in user home `/.config` directory. File name is `fltk-archiver.conf`. It has explanation inside.
