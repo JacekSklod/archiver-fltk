@@ -1,4 +1,4 @@
-# Rust Fltk GUI to 7z
+# Rust Fltk GUI for 7z
 
 The reason for this project is to provide another GUI for 7z.
 
