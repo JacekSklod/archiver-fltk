@@ -25,3 +25,4 @@ This application always extract intu default folder called "Extraction-tamestamp
 
 After successful extraction files list will be cleaned, but not the password, I done it so if password is the same for few archives no need to enter it again and again.
 
+When application starts, it create config file in user home `/.config` directory. File name is `fltk-archiver.conf`. It has explanation inside.
