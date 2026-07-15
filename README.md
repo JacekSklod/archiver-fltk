@@ -27,4 +27,4 @@ After successful extraction files list will be cleaned, but not the password, so
 
 When application starts, it creates config file in user home `/.config` directory. File name is `fltk-archiver.conf`. It has explanation inside.
 
-If you like this application, please consider support farther development.
+
