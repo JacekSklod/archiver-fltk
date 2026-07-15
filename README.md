@@ -27,4 +27,6 @@ After successful extraction files list will be cleaned, but not the password, so
 
 When application starts, it creates config file in user home `/.config` directory. File name is `fltk-archiver.conf`. It has explanation inside.
 
+In releases I uploaded 2 binary files, one for x11 and another for wayland. Both were tested on my Xubuntu 24.04
+
 
