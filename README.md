@@ -26,3 +26,5 @@ This application always extract into new folder called "Extract_date_time". It w
 After successful extraction files list will be cleaned, but not the password, so if password is the same for a few archives no need to enter it again and again.
 
 When application starts, it creates config file in user home `/.config` directory. File name is `fltk-archiver.conf`. It has explanation inside.
+
+If you like this application, please consider support farther development.
